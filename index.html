@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="left">
+    <div class="logo">
+      <img src="odin-lined.png" width="80px">
+      <p>ODIN</p>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="headtext">
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your
+        deepest dreams. <br>
+        Sign Up <em>now</em> to get started! <br>
+        <br>
+        You <em>know</em> you want to!
+      </p>
+    </div>
+
+    <div class="formarea">
+      <h2>Let's do this!</h2>
+      <form action="#" method="post" id="form">
+        <fieldset>
+          <label for="firstname">First Name:
+            <input type="text" id="firstname" name="firstname" required>
+          </label>
+          <label for="lastname">Last Name:
+            <input type="text" id="lastname" name="lastname" required>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="email">E-Mail:
+            <input type="email" id="email" name="email" required>
+          </label>
+          <label for="phone">Phone Number:
+            <input type="number" id="phone" name="phone" required>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="pw">Password:
+            <input type="password" id="pw" name="pw" required>
+          </label>
+          <label for="pwrepeat">Confirm Password:
+            <input type="password" id="pwrepeat" name="pwrepeat" required>
+            <div class="error">*Password does not match</div>
+          </label>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="buttonarea">
+      <button class="but" type="submit" form="form">Create Acount</button>
+      <p>Already have an Account? <a href="#">Log in</a></p>
+
+    </div>
+  </div>
+</body>
+</html>
